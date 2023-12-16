@@ -37,6 +37,11 @@
   border-radius: 2px;
   border: 2px solid #fff;
   grid-area: button;
+  transition: opacity 0.2s linear;
+}
+
+.profile__edit-button:hover {
+  opacity: 0.6;
 }
 
 .profile__description {
@@ -57,4 +62,9 @@
   border-radius: 2px;
   border: 2px solid #fff;
   margin-left: auto;
+  transition: opacity 0.2s linear;
+}
+
+.profile__add-button:hover {
+  opacity: 0.6;
 }
