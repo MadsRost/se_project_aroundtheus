@@ -35,7 +35,7 @@
   height: 24px;
   width: 24px;
   border-radius: 2px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   grid-area: button;
   transition: opacity 0.2s linear;
 }
@@ -60,11 +60,27 @@
   width: 150px;
   height: 50px;
   border-radius: 2px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   margin-left: auto;
   transition: opacity 0.2s linear;
 }
 
 .profile__add-button:hover {
   opacity: 0.6;
+}
+
+@media screen and (max-width: 878px) {
+  .profile {
+    padding-left: 40px;
+    padding-right: 45px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
