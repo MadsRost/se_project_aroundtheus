@@ -1,9 +1,29 @@
 .header {
-  margin-top: 45px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(84 84 84 / 0.7);
+  width: 880px;
+}
+
+.header__logo {
+  width: 168.75px;
+  height: 127.5px;
 }
 
 @media screen and (max-width: 878px) {
   .header {
     padding-left: 45px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header {
+    width: 320px;
+  }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
