@@ -31,9 +31,10 @@
   line-height: 48px;
   grid-area: title;
   margin: 0;
-  max-width: 373px;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
+  width: 380px;
 }
 
 .profile__edit-button {
@@ -81,22 +82,7 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 900px) {
   .profile {
-    padding-left: 40px;
-    padding-right: 45px;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .profile {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .profile__edit-button {
-    height: 18px;
-    width: 18px;
   }
 }

@@ -10,14 +10,5 @@
   margin-left: 200px;
   margin-right: 762px;
   margin-bottom: 60px;
-  margin-top: 51px;
-}
-
-@media screen and (max-width: 580px) {
-  .footer {
-    font-size: 14px;
-    margin-left: 25px;
-    margin-top: 41px;
-    margin-bottom: 15px;
-  }
+  margin-top: 85px;
 }
